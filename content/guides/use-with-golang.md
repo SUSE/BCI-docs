@@ -22,7 +22,7 @@ A second method is to use a slim base container image with just the minimal incl
 
 The following `Dockerfile` contents illustrate building your application using the SLE BCI Go image to build the binary and then putting the resulting binary in a new image based on scratch. The example uses a "hello world" name which you can substitute for your own application.
 
-```
+```docker
 # Build the Go Binary using the SLE BCI Go 1.18 images
 FROM registry.suse.com/bci/golang:1.18 as build
 
@@ -54,7 +54,7 @@ If your application exposes network ports or should run as a non-root user that 
 
 If you want to put your resulting image on top of a SLE BCI base you can do that instead of using a `scratch` image. There are benefits of doing this such as having libc or CA certificates easily available. When doing that your `Dockerfile` will look a little different:
 
-```
+```docker
 # Build the Go Binary using the SLE BCI Go 1.18 images
 FROM registry.suse.com/bci/golang:1.18 as build
 
