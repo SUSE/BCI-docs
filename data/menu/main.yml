@@ -12,6 +12,8 @@ main:
         ref: "/documentation/general-purpose-bci.md"
       - name: Language Stack BCI
         ref: "/documentation/language-stack-bci.md"
+      - name: Frequently Asked Questions
+        ref: "/documentation/faq.md"
   - name: Guides
     ref: "/guides"
     sub:
