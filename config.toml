@@ -2,6 +2,7 @@ baseURL = ""
 languageCode = "en-us"
 title = "SLE BCI Documentation"
 theme = "hugo-geekdoc"
+canonifyURLs = true
 
 [params]
   geekdocLogo = "suse_logo.svg"

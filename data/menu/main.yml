@@ -21,5 +21,7 @@ main:
         ref: "/guides/dev-containers"
       - name: Verify SLE BCI with cosign
         ref: "/guides/verify-with-cosign"
+      - name: Building Container Images based on SLE BCI
+        ref: "/guides/building-on-top-of-bci"
       - name: How to use container-suseconnect
         ref: "/guides/container-suseconnect"
