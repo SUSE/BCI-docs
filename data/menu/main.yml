@@ -21,5 +21,7 @@ main:
         ref: "/guides/dev-containers"
       - name: Verify SLE BCI with cosign
         ref: "/guides/verify-with-cosign"
+      - name: How To Use With Go
+        ref: "/guides/use-with-golang"
       - name: How to use container-suseconnect
         ref: "/guides/container-suseconnect"
